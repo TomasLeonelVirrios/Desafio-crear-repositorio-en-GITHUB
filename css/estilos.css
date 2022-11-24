@@ -42,6 +42,11 @@ header {
     color: rgba(65, 12, 12, 0.151);
     padding: 1px;
     margin: 1px;
+    transition: 5s;
+}
+
+.logoMokshauno:hover{
+    transform: rotateY(180deg);
 }
 
 main{
@@ -114,7 +119,7 @@ ul{
 }
 
 .menu-inicialtres{
-    display:flex;
+    display:block;
     color: rgb(7, 7, 7);
     margin: 2px;
     border: double 2px rgba(0, 0, 0, 0.829);
@@ -122,6 +127,7 @@ ul{
     background-color: rgb(252, 183, 183);  
     overflow: hidden;
     font-size: 120%;
+    text-align: center;
     
   }
 
@@ -132,10 +138,10 @@ footer {
     text-align: center;
     align-items: center;
     position:relative;
-    background: rgba(250, 121, 121, 0.781);
     height: 100%;
     padding: 10px 1px 10px 1px;
     margin: 0px;
+    background-image: linear-gradient(to top, rgb(54, 7, 0) , rgb(133, 105, 105))
 }
 
 .productos {
@@ -145,7 +151,12 @@ footer {
     width: 300px;
     justify-content:space-around;
     align-items: center;
+    transition: 2s;
     
+}
+
+.productos:hover {
+    transform: rotateY(180deg);
 }
 
 .article-productos{
@@ -179,6 +190,7 @@ h2{
     border-style: solid;
     border-color: rgba(156, 130, 130, 0.842);
     margin-bottom: 20px;
+    background-image: linear-gradient(to right, rgb(255, 203, 194) , rgb(245, 236, 236))
 }
 
 .main-generales{
@@ -202,13 +214,18 @@ h3{
     width: 400px;
     align-items: center;
     text-align: center;
+    transition: 3s;
+    
 }
 
 .article-fotografia {
     padding: 13px;
     align-items: center;
     text-align: center;
+}
 
+.imagenes-fotografia:hover{
+    transform: rotateY(180deg);
 }
 
 .parrafo-fotografia{
